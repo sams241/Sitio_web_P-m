@@ -94,8 +94,8 @@
   }
   header.scrolled{ border-bottom:1px solid var(--line); background:rgba(242,244,255,0.95); }
   .nav{ display:flex; align-items:center; justify-content:space-between; height:78px; }
-  .nav-brand{ display:flex; align-items:center; gap:10px; }
-  .nav-brand img{ height:38px; width:auto; }
+  .nav-brand{ display:flex; align-items:center; gap:0px; }
+  .nav-brand img{ height:76px; width:auto; margin-right: -40px; }
   .nav-brand .brand-text{ font-family:'Fraunces', serif; font-weight:600; font-size:18px; color:var(--navy); line-height:1.1;}
   .nav-brand .brand-text span{ display:block; font-family:'JetBrains Mono', monospace; font-size:10px; letter-spacing:.12em; color:var(--teal); font-weight:500; margin-top:2px;}
   .nav-links{ display:flex; align-items:center; gap:34px; }
