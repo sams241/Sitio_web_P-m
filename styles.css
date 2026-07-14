@@ -7,8 +7,8 @@
     --white:#ffffff;
     --ink:#1c1b3a;
     --gray:#5c6079;
-    --azulito:#67bfd3;
-    --oscuro:#201f4b;
+    --azulito:#67a6d3;
+    --oscuro:#201f4b; 
     --line: rgba(32,31,75,0.12);
     --radius: 14px;
     --maxw: 1180px;
@@ -70,13 +70,13 @@
     transition:transform .25s ease, box-shadow .25s ease, background .25s ease, color .25s ease;
     white-space:nowrap;
   }
-  .btn-primary{ background:var(--teal); color:#fff; box-shadow:0 8px 20px -8px rgba(0,114,125,0.55);}
+  .btn-primary{ background:var(--navy); color:#fff; box-shadow:0 8px 20px -8px rgba(31,101,158,0.55);}
   .btn-primary:hover{ transform:translateY(-2px); box-shadow:0 14px 26px -10px rgba(0,114,125,0.6);}
   .btn-ghost{ background:transparent; color:var(--navy); border:1.5px solid var(--line);}
   .btn-ghost:hover{ border-color:var(--royal); color:var(--royal); transform:translateY(-2px);}
   .btn-light{ background:#fff; color:var(--navy); }
   .btn-light:hover{ transform:translateY(-2px); box-shadow:0 14px 26px -10px rgba(0,0,0,0.25);}
-  .btn-whatsapp{ background:#00727d; color:#fff; box-shadow:0 8px 20px -8px rgba(31, 105, 158, 0.55);}
+  .btn-whatsapp{ background:var(--navy); color:#fff; box-shadow:0 8px 20px -8px rgba(31, 101, 158, 0.55);}
   .btn-whatsapp:hover{ transform:translateY(-2px); }
 
   /* reveal on scroll */
@@ -206,13 +206,13 @@
   .service-card:hover{ transform:translateY(-6px); box-shadow:0 22px 40px -22px rgba(32,31,75,0.28); border-color:transparent; }
   .service-icon{
     width:46px; height:46px; border-radius:12px;
-    background:linear-gradient(140deg, var(--ice), var(--teal));
+    background:linear-gradient(140deg, var(--azulito), var(--azulito));
     display:flex; align-items:center; justify-content:center;
   }
   .service-icon svg{ width:24px; height:24px; stroke:#fff; }
   .service-card h3{ font-size:19px; }
   .service-card p{ font-size:14.5px; color:var(--gray); flex:1; }
-  .service-more{ font-size:13.5px; font-weight:600; color:var(--teal); display:inline-flex; align-items:center; gap:6px; }
+  .service-more{ font-size:13.5px; font-weight:600; color:var(--azulito); display:inline-flex; align-items:center; gap:6px; }
   .service-more svg{ width:14px; height:14px; transition:transform .2s ease; }
   .service-card:hover .service-more svg{ transform:translateX(4px); }
   @media (max-width:980px){ .services-grid{ grid-template-columns:1fr 1fr; } }
@@ -228,13 +228,13 @@
   .service-card:hover{ transform:translateY(-6px); box-shadow:0 22px 40px -22px rgba(32,31,75,0.28); border-color:transparent; }
   .service-icon{
     width:46px; height:46px; border-radius:12px;
-    background:linear-gradient(140deg, var(--ice), var(--teal));
+    background:linear-gradient(140deg, var(--azulito), var(--azulito));
     display:flex; align-items:center; justify-content:center;
   }
   .service-icon svg{ width:24px; height:24px; stroke:#fff; }
   .service-card h3{ font-size:19px; }
   .service-card p{ font-size:14.5px; color:var(--gray); flex:1; }
-  .service-more{ font-size:13.5px; font-weight:600; color:var(--teal); display:inline-flex; align-items:center; gap:6px; }
+  .service-more{ font-size:13.5px; font-weight:600; color:var(--azulito); display:inline-flex; align-items:center; gap:6px; }
   .service-more svg{ width:14px; height:14px; transition:transform .2s ease; }
   .service-card:hover .service-more svg{ transform:translateX(4px); }
   @media (max-width:980px){ .services-grid{ grid-template-columns:1fr 1fr; } }
