@@ -348,7 +348,7 @@
   .contact-info{ background:var(--mist); border-radius:var(--radius); padding:34px; }
   .info-row{ display:flex; gap:16px; padding:18px 0; border-bottom:1px solid var(--line); }
   .info-row:last-of-type{ border-bottom:none; }
-  .info-row svg{ width:20px; height:20px; stroke:var(--teal); flex-shrink:0; margin-top:2px; }
+  .info-row svg{ width:20px; height:20px; stroke:var(--navy); flex-shrink:0; margin-top:2px; }
   .info-row h5{ font-size:14px; color:var(--navy); margin-bottom:3px; }
   .info-row p, .info-row a{ font-size:14px; color:var(--gray); }
   .map-frame{ margin-top:20px; border-radius:12px; overflow:hidden; height:220px; }
